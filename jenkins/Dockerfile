@@ -12,6 +12,5 @@ cd Python-7.7.2  && \
 ./configure --enable-optimizations --with-ensurepip=install && \
 make altinstall && \
 pip3.7 install --upgrade pip && \ 
-pip3.7 install matplotlib  && \
-cd / & /bin/rm -rf Python3*
+pip3.7 install matplotlib
 USER jenkins
